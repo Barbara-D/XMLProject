@@ -1,0 +1,45 @@
+body
+{
+  font-family: 'Montserrat', sans-serif;
+  margin:0; padding:0; 
+  background-color:#17161e;
+}
+
+h1 
+{
+  color:white; text-align: center; font-size:2em;
+  margin:1.5em;
+}
+
+.container
+{
+  display: flex; flex-wrap: wrap;
+  justify-content: center; align-items: center; align-content: center;
+  width: 80vw; margin: 0 auto;
+}
+.btn 
+{
+  flex: 1 1 auto; margin: 50px 15px; padding: 30px; text-align: center;
+  transition: 0.5s; background-size: 200% auto;
+  color: white; text-shadow: 0px 0px 10px rgba(0,0,0,0.3); border-radius: 10px;
+  letter-spacing: 2px; font-weight: bold; text-decoration: none;
+ }
+
+.btn-1 
+{
+  background-color:#82fff4; background-image: linear-gradient(to right, #82fff4 0%, #8fa6f4 51%, #82fff4 100%);
+}
+.btn-2 
+{
+  background-color:#a6c1ee; background-image: linear-gradient(to right, #a6c1ee 0%, #fbc2eb 51%, #a6c1ee 100%);
+}
+.btn:hover 
+{
+  background-position: right center; /* change the direction of the change here */
+}
+
+footer
+{
+  position: fixed; bottom: 0; left:0; width:98%; margin-bottom: 15px;
+  color:white; text-align: right; font-size:0.6em; /*font-style: italic*/;
+}
