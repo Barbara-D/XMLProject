@@ -39,11 +39,6 @@
 					  <a href='index.html' class='btn btn-3'>SIGN OUT</a>
 					</div>
 				</main>
-
-				<footer>
-					<span>Coded by Barbara Deskar</span><br/>
-					<span>for TVZ course XML Programming</span>
-				</footer>
 			</body>
 			</html>
 		";

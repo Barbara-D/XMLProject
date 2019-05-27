@@ -1,5 +1,12 @@
 <?xml version="1.0"?>
 <Accounts>
+   <Account>
+    <FirstName>Test</FirstName>
+    <LastName>Account</LastName>
+    <Email>test@fake.com</Email>
+    <Password>test12345</Password>
+    <Color>#2E77BB</Color>
+  </Account>
   <Account>
     <FirstName>Daenerys</FirstName>
     <LastName>Targaryen</LastName>
